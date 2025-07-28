@@ -1,0 +1,140 @@
+[
+  {
+    "producto": "POWERMETER_SMARTPLUS",
+    "nombre_display": "Smartplus",
+    "nombre_subtitulo": "",
+    "imagen": "img/smartplus.png",
+    "version": "V1.2.4",
+    "archivo": "POWERMETER_SMARTPLUS.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi)",
+        "sufijo_carpeta": "_MOBILE"
+      },
+      {
+        "nombre_display": "LORAWAN (LORA + WiFi)",
+        "sufijo_carpeta": "_LORAWAN"
+      }
+    ]
+  },
+  {
+    "producto": "POWERMETER_SOLAR",
+    "nombre_display": "Solar",
+    "nombre_subtitulo": "",
+    "imagen": "img/solar.png",
+    "version": "V1.2.4",
+    "archivo": "POWERMETER_SOLAR.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi)",
+        "sufijo_carpeta": "_MOBILE"
+      }
+    ]
+  },
+  {
+    "producto": "POWERMETER_SMART",
+    "nombre_display": "SMART",
+    "nombre_subtitulo": "version DISPLAY o LED",
+    "imagen": "img/smart_both.png",
+    "version": "V3.4.4",
+    "archivo": "POWERMETER_SMART.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi)",
+        "sufijo_carpeta": "_MOBILE"
+      },
+      {
+        "nombre_display": "TELECOM ESTANDAR (WiFi)",
+        "sufijo_carpeta": "_STD_TELECOM"
+      },
+      {
+        "nombre_display": "TELECOM MOBILE (LTE + WiFi)",
+        "sufijo_carpeta": "_MOBILE_TELECOM"
+      }
+    ]
+  },
+  {
+    "producto": "POWERMETER_SMART_SOLAR",
+    "nombre_display": "SMART Solar",
+    "nombre_subtitulo": "",
+    "imagen": "img/smart-solar.png",
+    "version": "V3.4.4",
+    "archivo": "POWERMETER_SMART_SOLAR.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi)",
+        "sufijo_carpeta": "_MOBILE"
+      }
+    ]
+  },
+  {
+    "producto": "POWERMETER_PRO15",
+    "nombre_display": "Pro 15",
+    "nombre_subtitulo": "",
+    "imagen": "img/pro15.png",
+    "version": "V2.1.5",
+    "archivo": "POWERMETER_PRO15.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi + ETHERNET)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi + ETHERNET)",
+        "sufijo_carpeta": "_MOBILE"
+      }
+    ]
+  },
+  {
+    "producto": "POWERMETER_AUTOMATE_24V_4M",
+    "nombre_display": "Automate 24V",
+    "nombre_subtitulo": "",
+    "imagen": "img/automate24v4m.png",
+    "version": "V1.4.1",
+    "archivo": "POWERMETER_AUTOMATE_24V_4M.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi + ETHERNET)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi + ETHERNET)",
+        "sufijo_carpeta": "_MOBILE"
+      }
+    ]
+  },
+  {
+    "producto": "POWERMETER_GATEWAY",
+    "nombre_display": "Gateway",
+    "nombre_subtitulo": "",
+    "imagen": "img/gateway.png",
+    "version": "V2.1.5",
+    "archivo": "POWERMETER_GATEWAY.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi + ETHERNET)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi + ETHERNET)",
+        "sufijo_carpeta": "_MOBILE"
+      }
+    ]
+  }
+]

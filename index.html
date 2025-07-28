@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Powermeter Firmware</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <style>
+    /* === MODO CLARO (por defecto) === */
+    body {
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+
+    h2.title {
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 1.5rem 0;
+      color: #212529;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      min-width: 0 !important;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      text-align: center;
+      color: #212529;
+    }
+
+    .card-subtitle {
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-bottom: 0.25rem;
+      margin-bottom: 0.25rem;
+      text-align: center;
+      color: #212529;
+    }
+
+    .form-label {
+      font-weight: 500;
+      font-size: 0.9rem;
+      color: #212529;
+    }
+
+    .fw-hash {
+      font-family: monospace;
+      font-size: 0.9rem;
+      word-break: break-all;
+      color: #212529;
+    }
+
+    .btn-turquoise {
+      background-color: #04C4A4;
+      border-color: #04C4A4;
+      color: #fff;
+      transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .btn-turquoise:hover,
+    .btn-turquoise:focus,
+    .btn-turquoise:active,
+    .btn-turquoise:disabled {
+      background-color: #039e85;
+      border-color: #039e85;
+      color: #fff;
+      box-shadow: none;
+    }
+
+    .info-text {
+      color: #212529 !important;
+      font-size: 0.95rem;
+      margin-top: -1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* === MODO OSCURO AUTOMÁTICO === */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+
+      h2.title {
+        color: #e0e0e0;
+      }
+
+      .card {
+        background-color: #1e1e1e;
+        border-color: #333;
+        color: #e0e0e0;
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      }
+
+      .card:hover {
+        box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08);
+      }
+
+      .card-title,
+      .card-subtitle,
+      .form-label,
+      .info-text {
+        color: #e0e0e0 !important;
+      }
+
+      .fw-hash {
+        color: #a9ffef;
+      }
+
+      .form-select,
+      .form-select:focus {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+        border-color: #444;
+      }
+
+      .form-select option {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+      }
+
+      .btn-turquoise {
+        background-color: #20E0B2;
+        border-color: #20E0B2;
+        color: #000;
+      }
+
+      .btn-turquoise:hover,
+      .btn-turquoise:focus,
+      .btn-turquoise:active,
+      .btn-turquoise:disabled {
+        background-color: #1AC8A2;
+        border-color: #1AC8A2;
+        color: #000;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid px-sm-5">
+    <h2 class="title">Descarga de Firmware</h2>
+    <p class="info-text text-center text-muted small mb-0">
+      En esta página podrá descargar el firmware más reciente para su Powermeter. Seleccione el modelo y variante
+      correspondiente y presione <strong>"Descargar Firmware"</strong>.
+    </p>
+    <!-- <div class="alert alert-warning small mt-2 mb-0" role="alert">
+      ⚠️ <strong>Importante:</strong> Powermeter no se hace responsable por daños o mal funcionamiento ocasionados por
+      la instalación de un firmware o variante incorrecta. Asegúrese de seleccionar el modelo y variante adecuados antes
+      de proceder con la descarga.
+    </div> -->
+    <div id="contenedor-productos" class="row mt-2 mb-4 g-3"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
