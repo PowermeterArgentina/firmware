@@ -1,3 +1,5 @@
 .vscode/
-firmware/*
+firmware/**/*.elf
+firmware/**/*.exe
+firmware/**/*.py
 !firmware/.gitkeep
