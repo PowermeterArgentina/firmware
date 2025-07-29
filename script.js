@@ -11,7 +11,7 @@ fetch('firmware.json')
       const versionPath = producto.version.replaceAll('.', '_');
       producto.variantes.forEach(variant => {
         const sufijo = variant.sufijo_carpeta || '';
-        const carpeta = `firmware/${producto.producto}/${versionPath}${sufijo}`;
+        const carpeta = `bin/${producto.producto}/${versionPath}${sufijo}`;
         const archivo = producto.archivo;
         const shaPath = `${carpeta}/sha256.txt`;
         const key = `${carpeta}/${archivo}`;
@@ -105,7 +105,7 @@ fetch('firmware.json')
           const nombreTecnico = currentVar.sufijo_carpeta || '';
           const version = producto.version;
           const versionPath = version.replaceAll('.', '_');
-          const carpeta = `firmware/${producto.producto}/${versionPath}${nombreTecnico}`;
+          const carpeta = `bin/${producto.producto}/${versionPath}${nombreTecnico}`;
           const archivo = producto.archivo;
           const binPath = `${carpeta}/${archivo}`;
           const key = `${carpeta}/${archivo}`;
