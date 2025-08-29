@@ -88,7 +88,7 @@
     "nombre_display": "Pro 15",
     "nombre_subtitulo": "",
     "imagen": "img/pro15.png",
-    "version": "V2.1.5",
+    "version": "V2.2.0",
     "archivo": "POWERMETER_PRO15.bin",
     "variantes": [
       {
@@ -124,7 +124,7 @@
     "nombre_display": "Gateway",
     "nombre_subtitulo": "",
     "imagen": "img/gateway.png",
-    "version": "V2.1.5",
+    "version": "V2.2.0",
     "archivo": "POWERMETER_GATEWAY.bin",
     "variantes": [
       {
