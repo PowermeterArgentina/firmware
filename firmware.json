@@ -83,6 +83,24 @@
       }
     ]
   },
+    {
+    "producto": "POWERMETER_PRO5",
+    "nombre_display": "Pro 5",
+    "nombre_subtitulo": "",
+    "imagen": "img/pro5.png",
+    "version": "V2.2.0",
+    "archivo": "POWERMETER_PRO5.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi + ETHERNET)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi + ETHERNET)",
+        "sufijo_carpeta": "_MOBILE"
+      }
+    ]
+  },
   {
     "producto": "POWERMETER_PRO15",
     "nombre_display": "Pro 15",
@@ -103,7 +121,7 @@
   },
   {
     "producto": "POWERMETER_AUTOMATE_24V_4M",
-    "nombre_display": "Automate 24V",
+    "nombre_display": "Automate 24V4M",
     "nombre_subtitulo": "",
     "imagen": "img/automate24v4m.png",
     "version": "V1.4.1",
