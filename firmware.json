@@ -4,7 +4,7 @@
     "nombre_display": "Smartplus",
     "nombre_subtitulo": "",
     "imagen": "img/smartplus.png",
-    "version": "V1.2.4",
+    "version": "V1.3.0",
     "archivo": "POWERMETER_SMARTPLUS.bin",
     "variantes": [
       {
@@ -26,7 +26,7 @@
     "nombre_display": "Solar",
     "nombre_subtitulo": "",
     "imagen": "img/solar.png",
-    "version": "V1.2.4",
+    "version": "V1.3.0",
     "archivo": "POWERMETER_SOLAR.bin",
     "variantes": [
       {
