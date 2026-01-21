@@ -1,5 +1,23 @@
 [
   {
+    "producto": "POWERMETER_HOME",
+    "nombre_display": "Home",
+    "nombre_subtitulo": "",
+    "imagen": "img/home.png",
+    "version": "V2.4.2",
+    "archivo": "POWERMETER_HOME.bin",
+    "variantes": [
+      {
+        "nombre_display": "ESTANDAR (WiFi)",
+        "sufijo_carpeta": "_STD"
+      },
+      {
+        "nombre_display": "MOBILE (LTE + WiFi)",
+        "sufijo_carpeta": "_MOBILE"
+      }
+    ]
+  },
+  {
     "producto": "POWERMETER_SMARTPLUS",
     "nombre_display": "Smartplus",
     "nombre_subtitulo": "",
@@ -88,7 +106,7 @@
     "nombre_display": "Pro 5",
     "nombre_subtitulo": "",
     "imagen": "img/pro5.png",
-    "version": "V2.2.0",
+    "version": "V2.4.2",
     "archivo": "POWERMETER_PRO5.bin",
     "variantes": [
       {
@@ -106,7 +124,7 @@
     "nombre_display": "Pro 15",
     "nombre_subtitulo": "",
     "imagen": "img/pro15.png",
-    "version": "V2.2.0",
+    "version": "V2.4.2",
     "archivo": "POWERMETER_PRO15.bin",
     "variantes": [
       {
@@ -142,7 +160,7 @@
     "nombre_display": "Gateway",
     "nombre_subtitulo": "",
     "imagen": "img/gateway.png",
-    "version": "V2.2.0",
+    "version": "V2.4.2",
     "archivo": "POWERMETER_GATEWAY.bin",
     "variantes": [
       {
